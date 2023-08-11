@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
+.header{
+  min-height: 100hv;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/banner.png);
+  background-size: cover;
+  background-position: center;
+}
