@@ -63,3 +63,27 @@ color: #fff;
   padding: 6px 10px 6px 30px;
   border-radius: 50px;
 }
+
+.search-bar form{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-bar input{
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.search-bar button{
+  background: #ff5361;
+  width: 55px;
+  height: 55px;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+
+}
