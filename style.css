@@ -153,11 +153,32 @@ color: #fff;
 
 .cta{
   margin: 88px 0;
-  background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+  background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.1.jpg);
   background-size:cover ;
   background-position: center;
   border-radius: 10px;
   padding: 5%;
   color: #fff;
 
+}
+
+.cta h3{
+  font-size: 4vw;
+  line-height: 5.3vm;
+  font-weight: 500;
+}
+
+.cta p{
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta-btn{
+  background: #ff5180;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
 }
