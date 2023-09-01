@@ -254,3 +254,31 @@ color: #fff;
   font-size: 22px;
   margin:0 10px ;
 }
+  .footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px;
+
+  }
+
+  .footer p{
+    margin-bottom: 15px;
+  }
+
+  .active{
+    position: relative;
+  }
+
+  .active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+  }
