@@ -431,13 +431,14 @@ nav .fa-bars {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .left-col{
   flex-basis: 70%;
 }
-
+/* -- 5% space between column */
 .right-col{
   flex-basis: 25%;
 }
@@ -458,7 +459,7 @@ nav .fa-bars {
 .house-img{
   flex-basis: 40%;
 }
-
+/* -- 2% space between column */
 .house-info{
   flex-basis: 58%;
   color: #555;
@@ -493,4 +494,16 @@ nav .fa-bars {
 
 .house-price h4 span{
   font-size: 16px;
+}
+
+/* --------Sidebar---------- */
+
+.sidebar{
+  border: 1px solid #999 ;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.sidebar h2{
+  font-size: 500;
 }
