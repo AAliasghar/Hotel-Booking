@@ -483,3 +483,14 @@ nav .fa-bars {
   margin : 10px 1px;
 }
 
+.house-price{
+  text-align: right;
+}
+
+.house-price h4 {
+  font-size: 20px;
+}
+
+.house-price h4 span{
+  font-size: 16px;
+}
