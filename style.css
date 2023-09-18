@@ -439,7 +439,7 @@ nav .fa-bars {
   flex-basis: 70%;
 }
 /* -- 5% space between column */
-.right-col{
+.right-col {
   flex-basis: 25%;
 }
 .left-col h1{
@@ -506,4 +506,25 @@ nav .fa-bars {
 
 .sidebar h2{
   font-size: 500;
+
+}
+.sidebar h3{
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.filter{
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.filter p{
+  flex: 1;
+}
+
+.filter input{
+  margin-right: 15px;
+  cursor: pointer;
+
 }
