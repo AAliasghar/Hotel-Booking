@@ -527,3 +527,31 @@ nav .fa-bars {
   margin-right: 15px;
   cursor: pointer;
 }
+
+.sidebar-link{
+  text-align: right;
+  margin: 18px 0;
+}
+
+.sidebar-link a {
+  text-decoration: none;
+}
+
+/* -----End-Of-Sidebar-------- */
+
+/* -----Pagination----- */
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0;
+}
+.pagination img {
+  width: 15px;
+  height: 15px;
+  margin: 10px 20px;
+}
+.right-arrow{
+  transform: rotate(180deg);
+}
+
