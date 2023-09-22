@@ -554,4 +554,28 @@ nav .fa-bars {
 .right-arrow{
   transform: rotate(180deg);
 }
+.pagination span{
+  margin: 10px 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
+.pagination .current{
+  background: #333;
+  color:#fff;
+}
+
+/* ------Small Screen for listing page ------ */
+@media only screen and (max-width:700px){
+  .list-container{
+    margin-top: 15px;
+  }
+  .left-col, .right-col, .house-img, .house-info{
+    flex-basis: 100%;
+  }
+}
+  
