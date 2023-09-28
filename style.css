@@ -676,3 +676,17 @@ nav .fa-bars {
   align-items: center;
   padding: 10px 50px;
 }
+
+
+.check-form label {
+  display: block;
+}
+.check-form div{
+  padding: 20px;
+}
+
+.check-form input {
+  background: transparent;
+  border: 0;
+  outline: none;
+}
