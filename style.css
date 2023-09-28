@@ -690,3 +690,18 @@ nav .fa-bars {
   border: 0;
   outline: none;
 }
+
+.check-form button {
+  background: #ff5361;
+  border: 0;
+  outline: none;
+  color: #fff;
+  padding: 18px;
+  width: 350px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.guest-field{
+  flex: 1;
+}
