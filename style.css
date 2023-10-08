@@ -768,3 +768,18 @@ nav .fa-bars {
   margin-bottom: 10px;
   font-weight: 500;
 }
+
+.host i{
+  color: #ff5361;
+}
+.contact-host{
+  display: inline-block;
+  margin: 40px 0 40px 120px ;
+  text-decoration: none;
+  color: #555;
+  padding: 15px 45px;
+  border: 1px solid #d15e5e;
+  border-radius: 8px;
+}
+
+

@@ -22,6 +22,7 @@
     <a href="#" class="register-btn">Register Now</a>
     <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
   </nav>
+  <!-- ---House-Details---- -->
   <div class="house-details">
     <div class="house-title">
       <h1>
@@ -85,7 +86,8 @@
 
     </ul>
     <hr class="line">
-    <p class="home-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus voluptatibus dolores explicabo
+    <p class="home-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus voluptatibus
+      dolores explicabo
       magnam, laudantium hic, aspernatur expedita nostrum incidunt sapiente quaerat fugit officia ea, cumque nemo
       doloribus fugiat eum enim sed dolorem vel consequuntur? Architecto dignissimos optio aliquid, impedit dolore fuga
       facere quis molestiae nisi soluta nesciunt blanditiis maiores suscipit cupiditate perspiciatis ab debitis placeat
@@ -93,17 +95,18 @@
       atque, aliquam odit minus voluptas optio commodi expedita nostrum doloribus soluta? Saepe magnam vitae quibusdam
       laboriosam eligendi, quis esse illum dolor nisi qui dolore ea ducimus assumenda!</p>
     <hr class="line">
-
+      <!---------Map---------- -->
     <div class="map">
       <h3>Location on map</h3>
       <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108415.83322171007!2d54.33676715!3d31.8795584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fa61993035b2a91%3A0x5d92a19dd7d4a10c!2sYazd%2C%20Yazd%20Province%2C%20Iran!5e0!3m2!1sen!2sde!4v1696452646396!5m2!1sen!2sde"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <b>Yazd, Iran</b>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108415.83322171007!2d54.33676715!3d31.8795584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fa61993035b2a91%3A0x5d92a19dd7d4a10c!2sYazd%2C%20Yazd%20Province%2C%20Iran!5e0!3m2!1sen!2sde!4v1696452646396!5m2!1sen!2sde"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <b>Yazd, Iran</b>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
     </div>
     <hr class="line">
+    <!----- Host --- -->
     <div class="host">
       <img src="images/host.png">
       <div>
@@ -114,13 +117,32 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-regular fa-star-half-stroke"></i>
-        </span>
-        &nbsp; &nbsp; 230 review &nbsp; &nbsp; Response rate 87% &nbsp; &nbsp; Response Time 85 min
-      </p>
+          </span>
+          &nbsp; &nbsp; 230 review &nbsp; &nbsp; Response rate 87% &nbsp; &nbsp; Response Time 85 min
+        </p>
       </div>
     </div>
+    <a href="#" class="contact-host">Contact Host</a>
   </div>
-
+  <div class="container">
+    <!----- Footer --- -->
+    <div class="footer">
+      <a href="http://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="http://youtube.com"><i class="fa-brands fa-square-youtube"></i></a>
+      <a href="http://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+      <hr>
+      <p>copyright &copy; 2023, ALiasghar</p>
+    </div>
+  </div>
+    <!----- toggle  ----->
+    <script>
+      var navBar = document.getElementById("navBar");
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
 </body>
 
 </html>
