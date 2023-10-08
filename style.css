@@ -738,43 +738,43 @@ nav .fa-bars {
   margin: 50px 0;
 }
 
-.map iframe{
+.map iframe {
   width: 100%;
   margin-bottom: 30px;
 }
 
-.map h3{
+.map h3 {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
-.map b{
+.map b {
   display: block;
   margin-bottom: 16px;
 }
 
-.host{
+.host {
   display: flex;
   align-items: center;
 }
 
-.host img{
+.host img {
   width: 80px;
   border-radius: 50%;
 }
 
-.host h2{
+.host h2 {
   margin-bottom: 10px;
   font-weight: 500;
 }
 
-.host i{
+.host i {
   color: #ff5361;
 }
-.contact-host{
+.contact-host {
   display: inline-block;
-  margin: 40px 0 40px 120px ;
+  margin: 40px 0 40px 120px;
   text-decoration: none;
   color: #555;
   padding: 15px 45px;
@@ -783,49 +783,48 @@ nav .fa-bars {
 }
 
 /* ----Media query for House-details page---- */
-@media only screen and (max-width: 700px){
-  .house-details{
+@media only screen and (max-width: 700px) {
+  .house-details {
     margin-top: 150px;
   }
-  .row p{
+  .row p {
     margin-top: 10px;
   }
-  .gallery{
-    grid-template-areas: 'first first' '..''..';
+  .gallery {
+    grid-template-areas: "first first" ".." "..";
   }
-  .small-details h2{
+  .small-details h2 {
     font-size: 25px;
     margin-top: 25px;
   }
-  .small-details h4{
+  .small-details h4 {
     text-align: left;
     max-width: 10px 0;
-font-size: 18px;
+    font-size: 18px;
   }
-  .check-form{
+  .check-form {
     padding: 10px 30px;
   }
-  .check-form div{
+  .check-form div {
     padding: 20px 0;
     width: 100%;
   }
-  .check-form input{
-    border-bottom: 1px solid #ccc ;
+  .check-form input {
+    border-bottom: 1px solid #ccc;
     width: 100%;
     padding-bottom: 5px;
   }
-  .check-form button{
+  .check-form button {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 15px;
     border-radius: 4px;
   }
-  .host{
+  .host {
     display: block;
     line-height: 20px;
   }
   .contact-host {
     margin: 40px 0;
   }
-  
 }
